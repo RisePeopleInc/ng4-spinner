@@ -3,6 +3,8 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { Ng4SpinnerModule } from './ng4-spinner/ng4-spinner.module';
+import { Ng4SpinnerService } from './ng4-spinner/ng4-spinner.service';
 
 
 @NgModule({
@@ -10,7 +12,8 @@ import { AppComponent } from './app.component';
     AppComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    Ng4SpinnerModule
   ],
   providers: [],
   bootstrap: [AppComponent]
