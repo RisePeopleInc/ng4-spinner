@@ -3,7 +3,7 @@ import { Ng4SpinnerService } from './ng4-spinner.service';
 import { Subscription } from 'rxjs/Subscription';
 
 @Component({
-  selector: 'app-ng4-spinner',
+  selector: 'ng4-spinner',
   templateUrl: './ng4-spinner.component.html',
   styleUrls: ['./ng4-spinner.component.scss']
 })
