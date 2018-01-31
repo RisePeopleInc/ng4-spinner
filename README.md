@@ -12,25 +12,55 @@ Install npm module:
 
 Import `Ng4SpinnerModule` from  node_modules/ng4-spinner in your app and start using a component
 
-
 Add the following html code in your application landing component, generally app-component 
 
 ```html
 <ng4-spinner>
-// create you own loader according to your design
-// Your Loader will go here
+// create you own spinner or loader according to your design
+// Your spinner or Loader will go here
 </ng4-spinner>
 ```
 
-Import `Ng4SpinnerService` from  node_modules/ng4-spinner  in any of the component you would like to start the loader
+Import `Ng4SpinnerService` from  node_modules/ng4-spinner  in any of the component you would like to start the Spinner/loader
 
-    The service has two methods ```typescript show() ``` and  ```typescript hide() ```
+    The service has two methods 
 
-    Call ```typescript show() ``` to enable the loader and ```typescript hide() ``` to disable loader
+    ```typescript
+     show() //to enable or show the SPINNER
+    ```
+     ```typescript
+      hide() //to disable or hide the SPINNER
+     ```
+
 
 
 #Sample
 
+
+
+app.module.ts
+
+```typescript
+import { BrowserModule } from '@angular/platform-browser';
+import { NgModule } from '@angular/core';
+import { AppComponent } from './app.component';
+
+/// import your Spinner module
+import {Ng4SpinnerModule} from './../../node_modules/ng4-spinner';
+
+@NgModule({
+  declarations: [
+    AppComponent
+  ],
+  imports: [
+    BrowserModule,
+    Ng4SpinnerModule// add it to the imports
+  ],
+  providers: [],
+  bootstrap: [AppComponent]
+})
+export class AppModule { }
+```
 app.component.html
 
 ```html
