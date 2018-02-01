@@ -27,12 +27,12 @@ Import `Ng4SpinnerService` from  node_modules/ng4-spinner  in any of the compone
 
     The service has two methods 
 
-    ```typescript
+```typescript
      show() //to enable or show the SPINNER
-    ```
-     ```typescript
+```
+```typescript
       hide() //to disable or hide the SPINNER
-     ```
+```
 
 
 
