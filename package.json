@@ -1,7 +1,36 @@
 {
   "name": "ng4-spinner",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SravanKumarNangunoori/ng4-spinner"
+  },
+  "keywords": [
+    "angular 4 +",
+    "Angular 4",
+    "Angular4",
+    "Angular 5",
+    "Angular5",
+    "ng",
+    "load",
+    "loading",
+    "spinner",
+    "busy",
+    "wait",
+    "ng4-loading",
+    "ng5",
+    "ng4-Spinnner",
+    "Angular loading",
+    "Angular 4 loading",
+    "Angular 5 loading",
+    "Angular spinner",
+    "Angular 4 spinner",
+    "Angular 5 spinner",
+    "Angular loading spinner",
+    "Angular 4 loading spinner",
+    "Angular 5 loading spinner"
+  ],
   "scripts": {
     "ng": "ng",
     "start": "ng serve",

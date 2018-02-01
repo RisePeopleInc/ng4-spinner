@@ -1,6 +1,8 @@
 # Ng4Spinner
 
-The Spinner allows you to show and hide loader , which can be devleoped according to your requirement and design
+The Ng4Spinner allows you to show and hide your customized loader ,  according to your requirement and design.
+Include the HTML in the landing component and can control show and hide from any  components in the respective module.
+
 
 ## Installation
 
