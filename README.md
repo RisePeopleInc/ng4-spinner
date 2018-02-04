@@ -7,12 +7,12 @@ You can also use the default spinner created and control it.
 Include the HTML in the landing component and can control show and hide from any  components in the respective module.
 
 
-## Working Stackblitz Example
+## Working StackBlitz Example
 
-Try out  working examples of our components at Stackblitz first....
+Check out  working examples of our components at Stackblitz first....
 
 
- [Open StackBltz ]( https://stackblitz.com/edit/ng4-spinner)
+ [Open StackBlitz ng4-spinner ]( https://stackblitz.com/edit/ng4-spinner)
 
 ## Installation
 
@@ -45,7 +45,7 @@ Add the following for the default spinner
 </ng4-default-spinner>
 ```
 
-Import `Ng4SpinnerService` from  node_modules/ng4-spinner  in any of the component you would like to start the Spinner/loader
+Import `Ng4SpinnerService` from ng4-spinner package  in any of the component you would like to start the Spinner/loader
 
     The service has two methods 
 
@@ -70,7 +70,7 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 
 /// import your Spinner module
-import {Ng4SpinnerModule} from './../../node_modules/ng4-spinner';
+import {Ng4SpinnerModule} from 'ng4-spinner';
 
 @NgModule({
   declarations: [
@@ -110,7 +110,7 @@ app.component.ts
 
 ```typescript
 import { Component } from '@angular/core';
-import {Ng4SpinnerService} from './../../node_modules/ng4-spinner'
+import {Ng4SpinnerService} from 'ng4-spinner'
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html'
