@@ -101,7 +101,6 @@ Default Spinner
 
 ```html
 <ng4-default-spinner>
-    My own Spinner
 </ng4-default-spinner>
 ```
 
