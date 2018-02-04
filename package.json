@@ -1,12 +1,19 @@
 {
   "name": "ng4-spinner",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/SravanKumarNangunoori/ng4-spinner"
   },
   "keywords": [
+    "Customizable spinner",
+    "Customizable loader",
+    "Loader Customizable",
+    "Default Loader",
+    "Deault Spinner",
+    "Spinner Npm",
+    "Loader Npm",
     "angular 4 +",
     "Angular 4",
     "Angular4",
@@ -40,7 +47,7 @@
     "e2e": "ng e2e",
     "packagr": "ng-packagr -p ng-package.json"
   },
-  "peerdependencies": {
+  "dependencies": {
     "@angular/animations": "^5.0.0",
     "@angular/common": "^5.0.0",
     "@angular/compiler": "^5.0.0",

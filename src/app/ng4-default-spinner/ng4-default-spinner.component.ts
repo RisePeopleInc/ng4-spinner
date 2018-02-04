@@ -1,22 +1,21 @@
 import { Component, OnInit, isDevMode } from '@angular/core';
-import { Ng4SpinnerService } from './ng4-spinner.service';
+import { Ng4SpinnerService } from '../ng4-spinner/ng4-spinner.service';
 import { Subscription } from 'rxjs/Subscription';
 
 @Component({
-  selector: 'ng4-spinner',
-  templateUrl: './ng4-spinner.component.html',
-  styleUrls: ['./ng4-spinner.component.scss']
+  selector: 'ng4-default-spinner',
+  templateUrl: './ng4-default-spinner.component.html',
+  styleUrls: ['./ng4-default-spinner.component.scss']
 })
-export class Ng4SpinnerComponent implements OnInit {
-
+export class Ng4DefaultSpinnerComponent implements OnInit {
   subscription: Subscription;
-  showSpinner: boolean;
+  showDefaultSpinner: boolean;
   constructor(private _ng4SpinnerService: Ng4SpinnerService) { }
   ngOnInit() {
-    this.showSpinner = false;
+    this.showDefaultSpinner = false;
     this.subscription = this._ng4SpinnerService.spinnerSubject
       .subscribe((state: boolean) => {
-        this.showSpinner = state;
+        this.showDefaultSpinner = state;
       });
   }
   ngOnDestroy() {
