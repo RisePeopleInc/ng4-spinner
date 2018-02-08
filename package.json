@@ -1,6 +1,6 @@
 {
   "name": "ng4-spinner",
-  "version": "0.0.5",
+  "version": "0.1.0",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -11,7 +11,7 @@
     "Customizable loader",
     "Loader Customizable",
     "Default Loader",
-    "Deault Spinner",
+    "Default Spinner",
     "Spinner Npm",
     "Loader Npm",
     "angular 4 +",
@@ -19,7 +19,7 @@
     "Angular4",
     "Angular 5",
     "Angular5",
-    "ng",
+    "ngx-spinner",
     "load",
     "loading",
     "spinner",

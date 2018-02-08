@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { Ng4SpinnerService } from './ng4-spinner/ng4-spinner.service';
+import { Console } from '@angular/core/src/console';
 
 @Component({
   selector: 'app-root',
@@ -9,9 +10,14 @@ import { Ng4SpinnerService } from './ng4-spinner/ng4-spinner.service';
 export class AppComponent {
   title = 'app';
   constructor(private ngSpinner:Ng4SpinnerService){
-    ngSpinner.show();
+
+  }
+  showSpinner()
+  {
+   this.ngSpinner.show();
+   console.log("sss");
     setTimeout(() => {
-      ngSpinner.hide();
+     this.ngSpinner.hide();
     }, 10000);
   }
 }
